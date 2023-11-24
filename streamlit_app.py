@@ -40,7 +40,7 @@ try:
       # write your own comment - what does this do?
       streamlit.dataframe(fruityvice_normalized)
     
-streamlit.write('The user entered ', fruit_choice)
+#streamlit.write('The user entered ', fruit_choice)
 except URLError as e:
   streamlit.error()
 
